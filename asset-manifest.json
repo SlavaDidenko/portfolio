@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4eede030.css",
+    "main.js": "/portfolio/static/js/main.b78cb3f7.js",
+    "static/media/IMG_20221026_202047.jpg": "/portfolio/static/media/IMG_20221026_202047.ea36dd843113365d0cfd.jpg",
+    "static/media/Gilroy-Light.ttf": "/portfolio/static/media/Gilroy-Light.0ac7c2f9cb59ea1ba11c.ttf",
+    "static/media/Gilroy-Bold.ttf": "/portfolio/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/Gilroy-Extrabold.ttf": "/portfolio/static/media/Gilroy-Extrabold.92e435f7fae6070d73bb.ttf",
+    "static/media/grain.svg": "/portfolio/static/media/grain.e245382d036a504d422e.svg",
+    "static/media/Gilroy-Bold.woff": "/portfolio/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
+    "static/media/Gilroy-Light.woff": "/portfolio/static/media/Gilroy-Light.368f09f56e89b3fe11c7.woff",
+    "static/media/Gilroy-Extrabold.woff": "/portfolio/static/media/Gilroy-Extrabold.f39ff81c45c126012265.woff",
+    "static/media/Gilroy-Bold.woff2": "/portfolio/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
+    "static/media/Gilroy-Light.woff2": "/portfolio/static/media/Gilroy-Light.c2e7a6dc47e5b9a89a37.woff2",
+    "static/media/Gilroy-Extrabold.woff2": "/portfolio/static/media/Gilroy-Extrabold.5c5942d3e4d9a9645df4.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.4eede030.css.map": "/portfolio/static/css/main.4eede030.css.map",
+    "main.b78cb3f7.js.map": "/portfolio/static/js/main.b78cb3f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eede030.css",
+    "static/js/main.b78cb3f7.js"
+  ]
+}
