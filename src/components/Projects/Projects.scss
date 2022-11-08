@@ -1,0 +1,136 @@
+.section {
+}
+
+.card {
+}
+.projects {
+  // .projects__wrapper
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  // .projects__card
+
+  &__card {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 100px;
+    &--left {
+      margin-left: auto;
+      flex-direction: row-reverse;
+
+      .projects__number {
+        margin-right: 30px;
+      }
+    }
+
+    &--right {
+      margin-right: auto;
+
+      .projects__number {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  // .projects__wrapper-img
+
+  &__wrapper-img {
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+
+    img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      background-blend-mode: multiply;
+    }
+  }
+
+  // .projects__wrapper-title
+
+  &__wrapper-title {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+  }
+
+  // .projects__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+
+  &__wrapper-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__number {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff4b9;
+  }
+
+  &__btn {
+    position: absolute;
+    right: -15px;
+    bottom: 70px;
+    display: block;
+    height: 121px;
+    width: 120px;
+    z-index: 10;
+  }
+
+  &__link-card {
+    position: relative;
+  }
+
+  .monochome {
+    &::after {
+      background: #fcf3ea;
+      mix-blend-mode: color;
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      transition: mix-blend-mode 0.3s ease-in-out;
+
+    }
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: url('../../assets/img/grain.svg');
+      background-size: cover;
+      opacity: 0.5;
+      z-index: 10;
+      transition: opacity 0.7s ease;
+    }
+
+    &:hover {
+      &::after {
+        mix-blend-mode: multiply;
+      }
+
+      &::before {
+        opacity: 0;
+      }
+    }
+  }
+}

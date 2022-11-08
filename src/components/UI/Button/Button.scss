@@ -1,0 +1,48 @@
+.btn {
+  position: relative;
+  padding: 22px 40px;
+  background-color: transparent;
+  outline: 2px solid #fff4b9;
+  margin: 2px;
+  border: 0;
+  border-collapse: collapse;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease;
+  overflow: hidden;
+  &::before {
+    position: absolute;
+    content: '';
+    height: 120%;
+    width: 120%;
+    background-color: #fff4b9;
+    left: -10%;
+    top: -10%;
+    z-index: 1;
+    transition: all 0.4s ease;
+    transform: translateX(-100%) skewX(20deg);
+  }
+
+  span {
+    position: relative;
+    z-index: 4;
+
+    color: #fff4b9;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &:hover, &:focus {
+    span {
+      color: #000000;
+    }
+
+    &::before {
+      transform: translateX(0) skewX(20deg);
+    }
+  }
+}
